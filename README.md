@@ -1,13 +1,34 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#  Busca de Perfil no GitHub
 
-Currently, two official plugins are available:
+## 📝 Objetivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Desenvolver uma aplicação web com **React** que permite buscar perfis do GitHub, exibindo as informações do usuário de forma estilizada, conforme o layout proposto no Figma.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# busca-perfil-github
+## ✅ Funcionalidades
+
+- 🔍 Campo de busca para digitar o nome de usuário do GitHub.
+- 📡 Consumo da API pública do GitHub.
+- 👤 Exibição das seguintes informações do perfil:
+  - Nome do usuário
+  - Foto de perfil
+  - Bio
+  - Link para o perfil no GitHub
+- ❌ Mensagem de erro quando o perfil não é encontrado.
+
+---
+
+## 🧪 Tecnologias Utilizadas
+
+- **React**
+- **Styled-components**
+- **API do GitHub**
+- **React Icons**
+- (Opcional: Tailwind, Bootstrap, etc.)
+
+
+
+
+
